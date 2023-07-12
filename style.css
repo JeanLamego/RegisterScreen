@@ -1,12 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
 }
 body{
     display: flex;
     flex-direction: column;
-    
-    
+    background-color: hsl(0, 100%, 74%);
+    background-image:url(./assets/bg-intro-mobile.png);
+    width: 100%;
     min-height: 100vh;
 }
+container{
+    display: flex;
+    flex-direction: column;
+    margin:2rem;
+}
+.title-text{
+    font-size: 1.4rem;
+    color: rgb(241, 241, 241);
+    text-align: center;
+    margin-top: 1rem;
+}
+.description-text{
+    text-align: center;
+    color:rgb(241, 241, 241);
+    font-weight: 500;
+    font-size: .9rem;
+    margin: 2rem 0;
+}
+
+.advertisement{
+    
+    text-align: center;
+    padding: 1rem;
+    margin: 1.2rem 0;
+    border-radius: .6rem;
+    background-color:hsl(248, 32%, 49%) ;
+    box-shadow: 0 .5rem hsla(0, 60%, 61%, 0.874) ;
+    
+}
+.ad-text{
+    color: rgb(241, 241, 241);
+}
+.ad-text b{
+    color: white;
+}
+.register-screen{
+    text-align: left;
+    background-color: white;
+    padding: 1rem;
+    border-radius: .6rem;
+    box-shadow: 0 .5rem hsla(0, 60%, 61%, 0.874) ;
+    
+}
+.informations{
+    display: flex;
+    flex-direction:column;
+    gap: .3rem;
+    
+}
+legend{
+    font-size: .8rem;
+    font-weight: 500;
+    color: hsl(249, 10%, 26%);
+}
+input{
+    padding: .5rem;
+    font-size: .85rem;
+    font-weight: 500;
+    color: hsl(249, 10%, 26%);
+    border:1px solid hsl(246, 25%, 77%);
+    border-radius: .25rem;
+}
+.btn{
+    background-color: hsl(154, 65%, 49%);
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem 0;
+    border:none;
+    border-radius: .3rem;
+    box-shadow: 0 .25rem hsla(154, 65%, 39%, 0.94);
+}
+.terms{
+    font-size: .7rem;
+    text-align: center;
+    color: hsl(246, 25%, 77%);
+    font-weight: 400;
+}
+.terms b{
+    font-size: .7rem;
+    text-align: center;
+    color: hsl(0, 100%, 74%);
+    font-weight: 700; 
+}
+    
+
+
