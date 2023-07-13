@@ -103,6 +103,34 @@ input{
     color: hsl(0, 100%, 74%);
     font-weight: 700; 
 }
+
+@media only screen and (min-width: 801px){
+    container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+        width: 66%;  
+        margin: auto; 
+    }
+    /* container .title, container .description{
+        
+        grid-column: 1 / 2;
+        align-items: center;
+        border: 1px solid yellow;
+    } */
+    
+   
+  .btn:hover{
+    background-color:hsl(154, 65%, 35%) ;
+    box-shadow: 0 .25rem hsla(154, 65%, 20%, 0.94);
+    cursor: pointer;
+  }
+    .advertisement{
+        grid-row: 1;
+        grid-column: 2;
+    }
+    
+}
     
 
 
